@@ -15,9 +15,9 @@ import junit.framework.Assert;
 
 public class UserTests extends ExtendsReportsManager{
 
-	Faker faker;
-	User userPayload;
-public Logger logger;
+	public	Faker faker;
+	public	User userPayload;
+    public  Logger logger;
 	@BeforeClass
 	public void setupData() {
 		faker = new Faker();
