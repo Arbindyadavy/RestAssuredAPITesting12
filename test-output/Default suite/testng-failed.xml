@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestassuretAutomation.RestassuretAutomation.HTTPRequests">
+      <class name="api.test.DataD_tests">
         <methods>
-          <include name="getuser"/>
+          <include name="testPostuser"/>
         </methods>
-      </class> <!-- RestassuretAutomation.RestassuretAutomation.HTTPRequests -->
+      </class> <!-- api.test.DataD_tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
