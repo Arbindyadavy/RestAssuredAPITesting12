@@ -19,12 +19,12 @@ public class ExtendsReportsManager implements ITestListener {
 	public ExtentReports extent=null;
 	public ExtentTest test =null;
 
-	//String repName;
-
+	String repName;
+//https://github.com/Arbindyadavy/RestAssuredAPITesting12.git
 	public void onStart(ITestResult result) {
-//
-//		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-//		repName = "Test-Report-" +timeStamp +".html";
+
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		repName = "Test-Report-" +timeStamp +".html";
 
 		sparkReporter = new ExtentSparkReporter("C:\\Users\\Neuroequilibrium\\eclipse-workspace\\RestAssuredAPITesting\\Reports\\reports.html");
 		
